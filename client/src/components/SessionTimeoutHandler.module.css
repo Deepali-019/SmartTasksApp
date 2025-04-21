@@ -1,0 +1,48 @@
+.modalStyle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalBoxStyle {
+  background-color: #ffffff;
+  padding: 24px 32px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+.modalBoxStyle h3 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.modalBoxStyle p {
+  margin-bottom: 20px;
+  color: #666666;
+}
+
+.modalBoxStyle button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modalBoxStyle button:hover {
+  background-color: #0056b3;
+}
